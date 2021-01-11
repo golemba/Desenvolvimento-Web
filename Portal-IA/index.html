@@ -1,0 +1,285 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+		<title>Portal</title>
+		<link href="style.css" rel="stylesheet" />
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<div class="topo">
+			<div class="topoint">
+				<div class="topoleft">
+					<ul>
+						<li><a href="./" class="ativo">Home</a></li>
+						<li><a href="quem-somos">Quem Somos</a></li>
+						<li><a href="anuncie-aqui">Anuncie Aqui</a></li>
+						<li><a href="contato">Contato</a></li>
+					</ul>
+				</div>
+				<div class="toporight">
+					<input type="image" src="./imagens/lupa.png" border="0" width="26" height="26" />
+					<input type="text" name="busca" class="topobusca" placeholder="Busca..." />					
+					<a href=""><img src="./imagens/youtube.png" border="0" width="26" height="26" /></a>
+					<a href=""><img src="./imagens/twitter.png" border="0" width="26" height="26" /></a>
+					<a href=""><img src="./imagens/facebook.png" border="0" width="26" height="26" /></a>
+					<a href=""><img src="./imagens/googleplus.png" border="0" width="26" height="26" /></a>
+					<a href=""><img src="./imagens/rss.png" border="0" width="26" height="26" /></a>					
+				</div>
+			</div>
+		</div>
+		<div class="topo2">
+			<div class="topo2int">
+				<div class="logo">
+					<img src="./imagens/foto1.jpg" border="0" width="190" />
+				</div>
+				<div class="banner">
+					<div class="bannertext"> Um blog para aprender sobre Inteligencia Artificial e Tecnologias relacionadas.</div>
+
+					</div>
+			</div>
+		</div>
+		<div class="menu">
+			<div class="menuint">
+				<img src="./imagens/menu.png" border="0" width="40" height="40" class="menumobile" onclick="toggleMenu()" />
+				<ul id="menu">
+					<li><a href="./" class="ativo">Home</a></li>
+					<li><a href="./">Reconhecimentos</a></li>
+					<li><a href="./">IoT</a></li>
+					<li>
+						<a href="./">Machine Learning</a>
+						<img src="./imagens/arrowdown.jpg" border="0" width="10" />
+						<div class="submenu">
+							<a href="./"><div class="submenuitem">Sub menu 1</div></a>
+							<a href="./"><div class="submenuitem">Sub menu 2</div></a>
+							<a href="./"><div class="submenuitem">Sub menu 3</div></a>
+						</div>
+					</li>
+					<li><a href="./">Deep Learning</a></li>
+					<li>
+						<a href="./">Inteligencia Artificial</a>
+						<img src="./imagens/arrowdown.jpg" border="0" width="10" />
+						<div class="submenu">
+							<a href="./"><div class="submenuitem">Sub menu 1</div></a>
+							<a href="./"><div class="submenuitem">Sub menu 2</div></a>
+							<a href="./"><div class="submenuitem">Sub menu 3</div></a>
+							<a href="./"><div class="submenuitem">Sub menu 4</div></a>
+						</div>
+					</li>
+					<li>
+						<a href="./">Areas de Atuacao</a>
+						<img src="./imagens/arrowdown.jpg" border="0" width="10" />
+						<div class="submenu">
+							<a href="./"><div class="submenuitem">Economia</div></a>
+							<a href="./"><div class="submenuitem">Seguranca</div></a>
+							<a href="./"><div class="submenuitem">Logistica</div></a>
+							<a href="./"><div class="submenuitem">Justica</div></a>
+							<a href="./"><div class="submenuitem">Automacao</div></a>
+						</div>
+					</li>
+					<li><a href="./">Videos</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="ultimasnoticias">
+			<div class="ultimasnoticiasint">
+				<div class="ultnoticiasarea">
+					<div class="ultnoticiastitulo">Inteligencia Artificial</div>
+					<div class="ultnoticiasnoticia">O que esperar do futuro, com a revolucao industrial 4.0</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="containerint">
+				<div class="leftside">
+					<div class="slideshow" id="slideshow">
+						<div class="slidebolinhas">
+							<div class="bolinha" onclick="mudarSlide(0)"></div>
+							<div class="bolinha" onclick="mudarSlide(1)"></div>
+							<div class="bolinha" onclick="mudarSlide(2)"></div>
+							<div class="bolinha" onclick="mudarSlide(3)"></div>
+						</div>
+						<div class="slideshowarea">
+							<a href="http://www.google.com.br/">
+								<div class="slide" style="background-image:url('https://take.net/blog/wp-content/uploads/2020/01/Take_InteligenciaArtificial.png')">
+									<div class="slideinfo">
+										<div class="slideinfo_titulo">Trabalhando com IA</div>
+										<div class="slideinfo_subtitulo">Como aprender e trabalhar com IA.</div>
+									</div>
+								</div>
+							</a>
+							<div class="slide" style="background-image:url('https://melhoracordo.srv.br/wp-content/uploads/2018/06/inteligencia-artificial-reivencao-do-advogado.jpg')">
+								<div class="slideinfo">
+									<div class="slideinfo_titulo">Robos do futuro.</div>
+									<div class="slideinfo_subtitulo">O que esperar do futuro, devemos temer a evolucao?</div>
+								</div>
+							</div>
+							<div class="slide" style="background-image:url('https://www.correiodopovo.com.br/image/policy:1.458557:1596228680/Inteligencia-artificial.jpg?f=2x1&$p$f=f7894db&w=1200&$w=9c05b01')">
+								<div class="slideinfo">
+									<div class="slideinfo_titulo">Um mundo interligado.</div>
+									<div class="slideinfo_subtitulo">Com a melhoria da tecnologia, passamos a ter todos os servicos interligados por meio da IA.</div>
+								</div>
+							</div>
+							<div class="slide" style="background-image:url('https://mittechreview.com.br/wp-content/uploads/2020/07/trbr_artigo_banner_30072020-1.jpg')">
+								<div class="slideinfo">
+									<div class="slideinfo_titulo">Controle absoluto.</div>
+									<div class="slideinfo_subtitulo">Apenas um codigo pode gerir muitas tarefas e otimizar tempo.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="widget">
+						<div class="widget_titulo">NOTÍCIAS</div>
+						<div class="widget_conteudo">
+							<div class="noticiaarea1">
+								<div class="noticiaitem noticiabig">
+									<div class="noticiaimg">
+										<img src="./imagens/foto7.jpg" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo">A Inteligencia Artificial podera julgar crimes humanos?</div>
+									<div class="noticiainfo">Um algoritmo teria a capacidade de julgar algum crime cometido por um humano e tomar uma decisao certeira?</div>
+								</div>
+							</div>
+							<div class="noticiaarea2">
+								<a href="http://www.google.com.br/">
+									<div class="noticiaitem">
+										<div class="noticiaimg">
+											<img src="./imagens/foto11.jpg" border="0" width="80" height="80" />
+										</div>
+										<div class="noticiatitulo">A Inteligencia artificial</div>
+										<div class="noticiainfo">Sera que realmente a IA seria uma Inteligencia, seria capaz de aprender coisas novas?</div>
+									</div>
+								</a>
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="./imagens/foto3.jpg" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo">Visao erronea sobre o assunto.</div>
+									<div class="noticiainfo">A grande maioria das pessoas tem uma visao distorcida sobre uma IA.</div>
+								</div>
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="./imagens/foto9.jpg" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo">Um mundo interconectado</div>
+									<div class="noticiainfo">A facilidade de controlar diversas tarefas apenas com o celular.</div>
+								</div>
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="./imagens/foto12.jpg" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo">Profissionais do futuro.</div>
+									<div class="noticiainfo">A busca por profissionais capacitados esta cada vez maior.</div>
+								</div>
+							</div>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+
+					<div class="widget">
+						<div class="widget_titulo">NOTÍCIAS</div>
+						<div class="widget_conteudo">
+							<div class="noticiaarea1">
+								<div class="noticiaitem noticiabig">
+									<div class="noticiaimg">
+										<img src="./imagens/foto16.jpg" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo">Seria esse o futuro, apenas caminho de ida para o avanco tecnologico?</div>
+									<div class="noticiainfo">Pelo visto, nao temos como escapar das novas tecnologias do mercado, mas temos 2 opcoes, ou nos adaptamos ou ficamos ultrapassados.</div>
+								</div>
+							</div>
+							<div class="noticiaarea2">
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="./imagens/foto15.jpg" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo">Globalizacao</div>
+									<div class="noticiainfo">Com um mundo interligado, voce consegue estar em todos os lugares ao mesmo tempo.</div>
+								</div>
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="./imagens/foto8.jpg" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo">O poder do binario.</div>
+									<div class="noticiainfo">Apenas 2 numeros, conseguem fazer tantas tarefas e melhorar a qualidade de vida das pessoas.</div>
+								</div>
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="./imagens/foto4.jpg" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo">Um toque humano.</div>
+									<div class="noticiainfo">Sera que um dia conseguiremos deixar robos mais parecidos com humanos?</div>
+								</div>
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="./imagens/foto5.jpg" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo">Poder Inestimavel</div>
+									<div class="noticiainfo">Qual o limite para uma IA, um dia descobriremos?</div>
+								</div>
+							</div>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+
+				</div>
+				<div class="rightside">
+					<div class="widget">
+						<div class="widget_titulo">SOCIAL</div>
+						<div class="widget_conteudo">
+							<a href=""><img src="./imagens/youtube.png" border="0" width="26" height="26" /></a>
+							<a href=""><img src="./imagens/twitter.png" border="0" width="26" height="26" /></a>
+							<a href=""><img src="./imagens/facebook.png" border="0" width="26" height="26" /></a>
+							<a href=""><img src="./imagens/googleplus.png" border="0" width="26" height="26" /></a>
+							<a href=""><img src="./imagens/rss.png" border="0" width="26" height="26" /></a>
+						</div>
+					</div>
+					<div class="widget">
+						<div class="widget_titulo">ÚLTIMAS NOTÍCIAS</div>
+						<div class="widget_conteudo">
+							<div class="noticia_item">
+								<a href="./">Machine Learning agiliza o resultado de testes de cancer de mama.</a>
+							</div>
+							<div class="noticia_item">
+								<a href="./">Dispositivos domesticos que monitoram a saude em tempo integral.</a>
+							</div>
+							<div class="noticia_item">
+								<a href="./">Como a Inteligencia artificial ja esta integrada a nossa rotina.</a>
+							</div>
+							<div class="noticia_item">
+								<a href="./">Força Aérea americana usa IA para controlar jato militar.</a>
+							</div>
+							<div class="noticia_item">
+								<a href="./">O que é Machine Learning e quais são seus benefícios	.</a>
+							</div>
+						</div>
+					</div>
+					<div class="widget">
+						<div class="widget_titulo">PUBLICIDADE</div>
+						<div class="widget_conteudo">
+							<img src="./imagens/foto20.webp" border="0" width="275" />
+						</div>
+					</div>
+					<div class="widget">
+						<div class="widget_titulo">ENCONTRE-NOS NO FACEBOOK</div>
+						<div class="widget_conteudo">
+							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FB7Web%2F&tabs&width=275&height=154&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1611752759077061" width="275" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

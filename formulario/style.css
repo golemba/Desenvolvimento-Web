@@ -1,0 +1,67 @@
+body{
+    padding: 20px;
+    max-width: 620px; 
+}
+header{
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-bottom: 40px;
+    text-align: center;
+    padding-top: 25px;
+    background-color: #555555;
+}
+.dadospessoais{
+    border: 2px solid #cccccc;
+    padding: 20px;
+    text-align: left;
+    background-color:#aaaaaa;
+    
+}
+.dados{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 15px;
+    margin: center;
+    background-color:#aaaaaa;
+    padding-top: 10px;
+    text-align: left;  
+}
+
+.natureza{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #555555;
+}
+.cargo{
+    display: flex;
+    float: left;  
+    background-color:#aaaaaa;
+    padding: 3px;
+}
+.cargo1{
+    display: flex;
+    padding: 10px;
+    width: 82px;
+    background-color:#aaaaaa;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+}
+.area{
+    text-align: center;
+    font-size: 20px;
+    background-color: #555555;
+}
+.interesse{
+    padding: 10px;
+    text-align: left;
+    background-color: #aaaaaa;
+}
+.informacoesextras{
+    text-align: center;
+    font-size: 20px;
+    background-color: #555555;
+    padding-bottom: 10px;
+}
